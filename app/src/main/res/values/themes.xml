@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MovieReview_v2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MovieReview_v2" parent="Base.Theme.MovieReview_v2" />
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="Widget.PictureInPicture.MovieView" parent="android:Widget">
+        <item name="android:src">@null</item>
+        <item name="android:adjustViewBounds">false</item>
+    </style>
+
+</resources>
