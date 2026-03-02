@@ -1,0 +1,109 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="#f9f9f9"
+    android:stretchColumns="1">
+
+    <!-- Title -->
+    <TableRow android:paddingBottom="8dp">
+        <TextView
+            android:text="Title:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textMovieName"
+            android:textSize="16sp"
+            android:paddingStart="16dp" />
+    </TableRow>
+
+    <!-- Year -->
+    <TableRow android:paddingBottom="8dp">
+        <TextView
+            android:text="Year:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textYear"
+            android:paddingStart="16dp" />
+    </TableRow>
+
+    <!-- Duration -->
+    <TableRow android:paddingBottom="8dp">
+        <TextView
+            android:text="Duration:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textDuration"
+            android:paddingStart="16dp" />
+    </TableRow>
+
+    <!-- Python Version -->
+    <TableRow android:paddingBottom="8dp">
+        <TextView
+            android:text="Python Version:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/pythonMovie"
+            android:paddingStart="16dp" />
+    </TableRow>
+
+    <!-- React Version -->
+    <TableRow android:paddingBottom="8dp">
+        <TextView
+            android:text="React Version:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textReactMovie"
+            android:paddingStart="16dp" />
+    </TableRow>
+
+    <!-- MSSQL Version -->
+    <TableRow android:paddingBottom="8dp">
+        <TextView
+            android:text="MSSQL Version:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textMssqlMovie"
+            android:paddingStart="16dp" />
+    </TableRow>
+
+    <!-- Java Version -->
+    <TableRow android:paddingBottom="8dp">
+        <TextView
+            android:text="Java Version:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textJavaMovie"
+            android:paddingStart="16dp" />
+    </TableRow>
+
+    <!-- Rating -->
+    <TableRow android:paddingBottom="8dp">
+        <TextView
+            android:text="Rating:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textRating"
+            android:paddingStart="16dp" />
+    </TableRow>
+
+    <!-- Female Role -->
+    <TableRow android:paddingBottom="8dp">
+        <TextView
+            android:text="Female Role:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textFemale"
+            android:paddingStart="16dp" />
+    </TableRow>
+
+    <!-- Male Role -->
+    <TableRow android:paddingBottom="8dp">
+        <TextView
+            android:text="Male Role:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textMale"
+            android:paddingStart="16dp" />
+    </TableRow>
+
+</TableLayout>
